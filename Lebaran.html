@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Hari Raya Idul Fitri 2025</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('https://drive.google.com/uc?export=download&id=1c3oUeynmMf5Q9i_33KbIqakpgn1NeeTD') no-repeat center center;
+            background-size: cover;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: rgb(1, 0, 0);
+            text-shadow: 2px 2px 5px rgb(241, 236, 236);
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #27ae60;
+        }
+        .button {
+            background-color: #0ea74d;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Selamat Hari Raya Idul Fitri 2025</h1>
+        <p>Mohon maaf lahir dan batin</p>
+        <a class="button" onclick="playMusic()">Klik untuk Memulai Musik</a>
+    </div>
+
+    <!-- Audio -->
+    <audio id="bg-music" loop>
+        <source src="https://drive.google.com/uc?export=download&id=1VdosnwlrmRwA60yzpqq5x4dJHrNVl9rE" type="audio/mp3">    
+    </audio>
+
+    <script>
+        function playMusic() {
+            let audio = document.getElementById('bg-music');
+            audio.play();
+        }
+    </script>
+
+</body>
+</html>
